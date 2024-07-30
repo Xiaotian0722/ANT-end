@@ -3,7 +3,7 @@ let cueTime = 200;
 let postCueTime = 400;
 let stimulusTime = 700;
 let iti = 1600;
-let trials = 100;
+let trials = 80;
 
 let trialData = [];
 let currentTrial = 0;
@@ -78,7 +78,7 @@ function draw() {
 function drawStartPage() {
   fill(0);
   textSize(18);
-  text('This is an attention performance test. \n\nFirst, a "+" will appear in the center of the screen, and there will be cues for 0.2 seconds.\n\nThen you will see a row of five black arrows pointing left or right.\n\nYou need to press left or right on the keyboard to point the direction of the center arrow.\n\nThe arrows will present for only 0.6 seconds. \n\nA total of 100 trials will be performed.', width / 2, height / 2 - 25);
+  text('This is an attention performance test. \n\nFirst, a "+" will appear in the center of the screen, and there will be cues for 0.2 seconds.\n\nThen you will see a row of five black arrows pointing left or right.\n\nYou need to press left or right on the keyboard to point the direction of the center arrow.\n\nThe arrows will present for only 0.6 seconds. \n\nA total of 80 trials will be performed.', width / 2, height / 2 - 25);
 }
 
 function startExperiment() {
