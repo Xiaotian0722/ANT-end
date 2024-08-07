@@ -78,7 +78,7 @@ function draw() {
 function drawStartPage() {
   fill(0);
   textSize(18);
-  text('This is an attention performance test. \n\nThere will be a row of black arrows e.g. '<<<<<', and distracting cues appear on the screen. \n\nThe arrows will only point left or right. \n\nYour task is to press left or right on the keyboard to point the direction of the center arrow.\n\nYou'll not receive feedback when pressing. \n\n A total of 80 trials will be performed. \n\nPlease save the data file when finishing.', width / 2, height / 2 - 25);
+  text('This is an attention performance test. \n\nThere will be a row of black arrows e.g. <<<<<, and distracting cues appear on the screen. \n\nThe arrows will only point left or right. \n\nYour task is to press left or right on the keyboard to point the direction of the center arrow.\n\nYou'll not receive feedback when pressing. \n\n A total of 80 trials will be performed. \n\nPlease save the data file when finishing.', width / 2, height / 2 - 25);
 }
 
 function startExperiment() {
